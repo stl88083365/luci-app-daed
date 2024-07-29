@@ -68,7 +68,7 @@ endef
 
 WEB_FILE:=$(PKG_NAME)-web-$(PKG_VERSION).zip
 define Download/daed-web
-        URL:=https://github.com/daeuniverse/daed/releases/download/v0.7.0rc1.1
+        URL:=https://github.com/daeuniverse/daed/releases/download/v0.7.0
 	URL_FILE:=web.zip
 	FILE:=$(WEB_FILE)
 	HASH:=skip
